@@ -1,7 +1,7 @@
 /*
 */
 
-nav {
+body {
     background-color: lightgray;
 }
 
@@ -9,9 +9,13 @@ h2,h3{
     color: darkblue;
 }
 
+.text-primary{
+    color: darkblue;
+}
 .who {
    /* background-color: lightblue;    */
-    background: -webkit-linear-gradient(180deg, #c1ffff,#ffffff,#ffffff);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(180deg, #c1ffff,#ffffff,#ffffff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    background: -webkit-linear-gradient(180deg, #c1ffff,#ffffff,#ffffff);/* Chrome 10-25, Safari 5.1-6 */        
+    background: linear-gradient(180deg, #c1ffff,#ffffff,#ffffff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
 }
 
 .orange{
@@ -21,4 +25,28 @@ h2,h3{
 
 .lavender{
     background-color: rgb(192, 128, 255);
+}
+
+.dark-purple{
+    background-color: darkslateblue;
+    color: white;
+}
+
+#join{
+    background-image: url("../img/computer.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2em;
+}
+
+#join-panel{
+    text-align: center;
+    align-items: center;    
+    max-height: 80%;
+    }
+
+#header-card{
+    background: -webkit-linear-gradient(180deg, #80ffff,#8080ff,#8080ff);/* Chrome 10-25, Safari 5.1-6 */           
+    background: linear-gradient(180deg, #80ffff,#8080ff,#8080ff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+
 }
