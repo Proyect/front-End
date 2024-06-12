@@ -10,8 +10,10 @@ h2,h3{
 }
 
 .text-primary{
-    color: darkblue;
+    color: rgb(3, 3, 60);
+    font-weight: bold;
 }
+
 .who {
    /* background-color: lightblue;    */
     background: -webkit-linear-gradient(180deg, #c1ffff,#ffffff,#ffffff);/* Chrome 10-25, Safari 5.1-6 */        
@@ -23,14 +25,46 @@ h2,h3{
     color: white;
 }
 
+.btn-outline-warning{
+    border-color: rgb(255, 98, 0);
+    color: rgb(255, 98, 0);
+}
+
+.btn-outline-warning:hover{
+    background-color: rgb(255, 98, 0);
+    color: white;     
+}
+
 .lavender{
     background-color: rgb(192, 128, 255);
+}
+
+.btn-outline-info{
+    border-color: rgb(192, 128, 255);
+    color: rgb(192, 128, 255);
+}
+
+.btn-outline-info:hover{
+    background-color:  rgb(192, 128, 255);
+    border-color: black;    
+    color: white;
 }
 
 .dark-purple{
     background-color: darkslateblue;
     color: white;
 }
+
+.btn-outline-dark{
+    border-color: darkslateblue;
+    color: darkslateblue;
+}
+
+.btn-outline-dark:hover{
+    background-color: darkslateblue;
+}
+
+/*Join*/
 
 #join{
     background-image: url("../img/computer.png") ;
