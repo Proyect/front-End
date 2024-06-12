@@ -1,7 +1,7 @@
 /*
 */
 
-body {
+nav {
     background-color: lightgray;
 }
 
@@ -9,6 +9,16 @@ h2,h3{
     color: darkblue;
 }
 
-#who {
-    background-color: lightblue;    
+.who {
+   /* background-color: lightblue;    */
+    background: -webkit-linear-gradient(180deg, #c1ffff,#ffffff,#ffffff);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(180deg, #c1ffff,#ffffff,#ffffff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+
+.orange{
+    background-color: rgb(255, 98, 0);
+    color: white;
+}
+
+.lavender{
+    background-color: rgb(192, 128, 255);
 }
