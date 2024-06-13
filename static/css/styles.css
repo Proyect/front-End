@@ -84,3 +84,9 @@ h2,h3{
     background: linear-gradient(180deg, #80ffff,#8080ff,#8080ff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
 
 }
+
+.img-thumbnail{
+    max-width: 2em;
+    max-height: 2em;
+    border: 0;
+}
